@@ -10,7 +10,7 @@ using System.Net;
 
 namespace ADManager
 {
-    class ComputerBL
+    class BusinessComputer
     {
 
 
@@ -21,7 +21,7 @@ namespace ADManager
         private List<ComputersProperties> computerList { get; set; }
 
       
-        public ComputerBL()
+        public BusinessComputer()
         {
 
             _computer = new Computer();

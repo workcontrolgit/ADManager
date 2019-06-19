@@ -118,7 +118,7 @@ namespace ADManager
             {
                 if (dt == null)
                 {
-                    var users = new BLUser();
+                    var users = new BusinessUser();
                     dt = users.GetAllAdUsers();
                     rowCount = dt.Rows.Count;
                     Thread.Sleep(3000);

@@ -21,7 +21,7 @@ namespace ADManager
         private string deletedUserSamName { get; set; }
         private DataTable searchedUserDT { get; set; }
         private bool isCached { get; set; }
-        private BLUser blUser { get; set; }
+        private BusinessUser blUser { get; set; }
         private int rowCount = 0;
         public DataTable allUserDT { get; set;}
 
@@ -41,7 +41,7 @@ namespace ADManager
             logonPass = Giris._userPassword;
             allUserDT = new DataTable();
             isCached = false;
-            blUser = new BLUser();
+            blUser = new BusinessUser();
         
            
           

@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
+
 namespace ADManager
 {
     public partial class PasswordChange : Form
@@ -15,11 +18,11 @@ namespace ADManager
 
         // Kullanıcı Parola değiştirme işlemini yapan form
         private string samAccountName;
-        private BLUser blUser;
+        private BusinessUser blUser;
         public PasswordChange(string samAccountName )
         {
             this.samAccountName = samAccountName;
-            blUser = new BLUser();
+            blUser = new BusinessUser();
             InitializeComponent();
         }
 

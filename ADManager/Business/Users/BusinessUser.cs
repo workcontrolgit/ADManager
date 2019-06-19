@@ -12,12 +12,12 @@ using System.DirectoryServices.AccountManagement;
 
 namespace ADManager
 {
-    class BLUser
+    class BusinessUser
     {
 
         private readonly User user;
         public string responseMessage { get; set; }
-        public BLUser()
+        public BusinessUser()
         {
             user = new User();
 

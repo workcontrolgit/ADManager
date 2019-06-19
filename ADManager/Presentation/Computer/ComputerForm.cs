@@ -17,7 +17,7 @@ namespace ADManager
 
 
 
-        private ComputerBL computerBl;
+        private BusinessComputer computerBl;
 
         private string computerName { get; set; }
         // Form moving parameters.
@@ -29,7 +29,7 @@ namespace ADManager
         {
             
             InitializeComponent();
-            computerBl = new ComputerBL();
+            computerBl = new BusinessComputer();
         }
 
         // "Tüm Kayıtları Sorgula" button clicked.

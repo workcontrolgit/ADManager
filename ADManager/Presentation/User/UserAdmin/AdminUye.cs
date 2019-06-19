@@ -61,7 +61,7 @@ namespace ADManager
             if (listBox3.Items.Count != 0)
             {
                 string groupName = listBox3.Items[0].ToString();
-                BLUser blUser = new BLUser();
+                BusinessUser blUser = new BusinessUser();
                 MessageBox.Show(blUser.AddUserToAdminGroup(samAccountName, groupName));
 
             }
